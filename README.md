@@ -23,7 +23,7 @@
         <ul>
             <li>Major: Computer Science</li>
             <li>Year: senior</li>
-            <img src="me.jpg">
+            <img src="me.img.heic">
         </ul>
         </div>
 
