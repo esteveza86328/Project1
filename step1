@@ -23,7 +23,7 @@
         <ul>
             <li>Major: Computer Science</li>
             <li>Year: senior</li>
-            <img src="me.jpg">
+            <img src="me.img.heic">
         </ul>
         </div>
 
@@ -75,7 +75,7 @@
 
         <div id="projects">
             <ol>
-                <li>Project 1, maing a basic website</li>
+                <li>Project 1, making a basic website</li>
             </ol>
         </div>
     </body>
