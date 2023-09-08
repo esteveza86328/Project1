@@ -4,7 +4,6 @@
 
         <form>
             What is your name?<input type ="text" name="name"> </form>
-        </form>
         <p>Links</p>
         <ul>
             <li><a href="#About">About Me</a></li>
@@ -75,7 +74,7 @@
 
         <div id="projects">
             <ol>
-                <li>Project 1, maing a basic website</li>
+                <li>Project 1, making a basic website</li>
             </ol>
         </div>
     </body>
