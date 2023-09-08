@@ -68,8 +68,8 @@
 
         <div id="website">
             <h1>Where I spend my time online</h1>
-            <p><a href=“https://www.youtube.com” target="_blank">Youtube Channel</a>
-            here I will watch a lot of random videos, be it a gaming video, educational video, or some random guy camping.</p>
+            <p><a href=“https://www.youtube.com” target="_blank">Youtube Channel</a></p>
+            <p>here I will watch a lot of random videos, be it a gaming video, educational video, or some random guy camping.</p>
         </div>
 
         <div id="projects">
