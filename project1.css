@@ -1,0 +1,103 @@
+h1 {
+    font-family: 'Nosifer', cursive;
+    font-size: 30px;
+    padding-left:2%;
+    font-weight:bold;
+}
+
+p{
+    font-size:20;
+    padding-left:5%;
+}
+
+span{
+    padding-left:1%;
+}
+
+ul{
+    color:red;
+    font-size:20;
+}
+
+ol{
+    padding-left:5%;
+}
+
+li{
+    color:blue;
+    font-size:blue;
+}
+
+#About img{
+    width:400px;
+    height:400px;
+}
+
+#favoritet img{
+    width:560px; 
+    height:315px;
+}
+
+
+table{
+    border:5px dotted black;
+    border-radius:30px;
+    width:75%;
+    height:50px;
+    border-spacing:50px;
+}
+
+td{
+    border:5px dotted black;
+}
+
+input{
+    width:50%;
+    color:black;
+}
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color:red;
+}
+
+#links{
+    padding-left:0%;
+    width:10%;
+    height:100%;
+    background-color:black;
+}
+
+#main{
+    padding-left:10%;
+    width:84%;
+}
+
+@media print {
+    .screen_only {
+        display: none;
+    }
+}
+
+@media (max-width: 640px){
+    #favoritet img{
+        width:380px; 
+        height:155px;
+    } 
+    #About img{
+        width:200px;
+        height:200px;
+    }
+    body{
+        background-color:white;
+    }
+}
+
+@media (min-width: 769px){
+    body{
+        background-color:aqua;
+    }
+}
