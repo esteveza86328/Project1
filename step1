@@ -1,11 +1,19 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+    </html>
+    <head><link rel="stylesheet" href="project1.css">
+    <Style>
+    .welcome{
+        font-size:15px;
+        color:black;
+    }
+    </Style>
+    </head> 
     <body>
 
-        <form>
-            What is your name?<input type ="text" name="name"> </form>
-        </form>
-        <p>Links</p>
+        <form class="welcome">What is your name?<input type ="text" name="name"> </form>
+        <div id="links">
+        <p style="color:rgb(6, 16, 196);padding-left:1%;font-size: 30px">Links</p>
         <ul>
             <li><a href="#About">About Me</a></li>
             <li><a href="#Education">Education</a></li>
@@ -17,13 +25,14 @@
 
 
         </ul>
-
+        </div>
+        <div id="main">
         <div id="About">
         <h1>Avery Estevez</h1>
         <ul>
             <li>Major: Computer Science</li>
             <li>Year: senior</li>
-            <img src="me.img.heic">
+            <img src="IMG_1641.JPG">
         </ul>
         </div>
 
@@ -69,14 +78,16 @@
 
         <div id="website">
             <h1>Where I spend my time online</h1>
-            <p><a href=“https://www.youtube.com” target="_blank">Youtube Channel</a>
-            here I will watch a lot of random videos, be it a gaming video, educational video, or some random guy camping.</p>
+            <a href=“https://www.youtube.com” target="_blank" style="color:red; padding-left:5%";>Youtube</a>
+            <p>here I will watch a lot of random videos, be it a gaming video, educational video, or some random guy camping.</p>
         </div>
 
         <div id="projects">
+            <h1>Projects</h1>
             <ol>
-                <li>Project 1, making a basic website</li>
+                <li>Project 1, making a basic profile website</li>
             </ol>
         </div>
+    </div>
     </body>
 </html>
