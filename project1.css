@@ -4,6 +4,12 @@ h1 {
     padding-left:2%;
     font-weight:bold;
 }
+h2 {
+    font-family: 'Sans-serif', cursive;
+    font-size: 20px;
+    padding-left:2%;
+    font-weight:bold;
+}
 
 p{
     font-size:20;
@@ -33,6 +39,10 @@ li{
     height:400px;
 }
 
+#About{
+    padding-top:5%;
+}
+
 #favoritet img{
     width:560px; 
     height:315px;
@@ -42,8 +52,8 @@ li{
 table{
     border:5px dotted black;
     border-radius:30px;
-    width:175%;
-    height:100px;
+    width:75%;
+    height:20%;
     border-spacing:50px;
 }
 
@@ -57,11 +67,11 @@ input{
 }
 
 a:link{
-    color:white;
+    color:black;
 }
 
 a:visited{
-    color:red;
+    color:rgb(6, 16, 196);
 }
 
 #links{
